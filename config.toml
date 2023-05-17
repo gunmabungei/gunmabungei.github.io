@@ -1,7 +1,7 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = '群馬高専文芸部のサイトへようこそytfjgfgh！'
-theme = 'hugo-paper'
+theme = 'paper'
 
 disqusShortname = 'YOUR_DISQUS_SHORTNAME'   # use disqus comments
 
