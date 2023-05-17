@@ -1,7 +1,7 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = '群馬高専文芸部のサイトへようこそ！'
-theme = 'ananke'
+title = '群馬高専文芸部のサイトへようこそytfjgfgh！'
+theme = 'hugo-paper'
 
 disqusShortname = 'YOUR_DISQUS_SHORTNAME'   # use disqus comments
 
@@ -18,7 +18,7 @@ disqusShortname = 'YOUR_DISQUS_SHORTNAME'   # use disqus comments
 
   # home page profile
   avatar = '/mayoi.jpeg'                 # gravatar email or image url
-  name = 'YOUR_NAME'
+  name = 'YOUR_NAMjhgkjgkjhgE'
   bio = 'YOUR_BIO'
 
 
