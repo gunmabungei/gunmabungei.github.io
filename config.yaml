@@ -50,7 +50,7 @@ taxonomies:
 
 menu:
   main:
-    - name: 'Blog'
+    - name: 'Index'
       url: ''
       weight: 1
     - name: 'About'
