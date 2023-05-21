@@ -22,4 +22,11 @@ draft: false
 ## ようこそ！
 群馬高専のプレハブ校舎二階の部室に来て、名簿に名前を書いたら部員登録完了です。
 
-一年中部員は募集中なので、好きな時に来てください～。
+一年中部員は募集中なので、好きな時に来てください～。  
+  
+
+
+
+
+[Twitter：NITGC_bungei](https://twitter.com/NITGC_bungei)  
+[マシュマロ](https://marshmallow-qa.com/nitgc_bungei?utm_medium=twitter&utm_source=promotion)
