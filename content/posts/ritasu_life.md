@@ -1,5 +1,5 @@
 ---
-title: "Ritasu_life"
+title: "リィタスの日常"
 date: 2023-05-21T16:56:16+09:00
 draft: false
 tag: "novel"

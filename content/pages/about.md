@@ -2,6 +2,7 @@
 title: "About"
 date: 2023-05-19T03:35:35Z
 draft: false
+color: 'linen'
 ---
 
 ## 文芸部とは？
