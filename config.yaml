@@ -1,0 +1,64 @@
+baseURL: 'http://gunmabungei.github.io'
+languageCode: 'ja-jp'
+title: '群馬高専文藝部'
+theme: 'PaperMod'
+pygmentsStyle: 'trac'
+pygmentsUseClasses: true
+pygmentsCodeFences: true
+pygmentsCodefencesGuessSyntax: true
+#pygmentsUseClassic: true
+#pygmentOptions: "linenos=inline"
+googleAnalytics: 'G-5HCJ8VM01G'
+hasCJKLanguage: true
+
+markup:
+  goldmark:
+    parser:
+      attribute:
+        block: true
+
+params:
+  color: 'linen'                           # linen, wheat, gray, light
+  mainSections:
+    - 'post'
+    - 'posts'
+  logo: 'https://pbs.twimg.com/profile_images/1654294111967653890/pNzzPLql_400x400.jpg' # Expecting square dimensions
+  favicon: 'https://pbs.twimg.com/profile_images/1654294111967653890/pNzzPLql_400x400.jpg'
+  dateFormat: 'January 2, 2006'
+  commit: false
+  rss: true
+  comments: true
+  readingTime: true
+  useHLJS: true
+  socialShare: true
+  delayDisqus: true
+  showRelatedPosts: true
+  hideAuthor: false
+
+  # header social icons
+  twitter: 'NITGC_bungei'               # twitter.com/YOUR_TWITTER_ID
+
+  # home page profile
+  avatar: 'https://pbs.twimg.com/profile_images/1237143126323548160/bPkIHIET_400x400.jpg'                 # gravatar email or image url
+  name: '群馬高専の文芸部です〜'
+  bio: 'やっはろー'
+
+taxonomies:
+  tag: 'tag'
+  category: 'categories'
+  author: 'author'
+
+menu:
+  main:
+    - name: 'Blog'
+      url: ''
+      weight: 1
+    - name: 'About'
+      url: 'pages/about/'
+      weight: 3
+    - name: 'Tag'
+      url: 'tag'
+      weight: 3
+    - name: 'Author'
+      url: 'author'
+      weight: 3
