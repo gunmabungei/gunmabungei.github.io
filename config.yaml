@@ -1,6 +1,6 @@
 baseURL: 'http://gunmabungei.github.io'
 languageCode: 'ja-jp'
-title: '群馬高専文藝部'
+title: '群馬高専文芸部'
 theme: 'PaperMod'
 pygmentsStyle: 'trac'
 pygmentsUseClasses: true
@@ -8,7 +8,6 @@ pygmentsCodeFences: true
 pygmentsCodefencesGuessSyntax: true
 #pygmentsUseClassic: true
 #pygmentOptions: "linenos=inline"
-googleAnalytics: 'G-5HCJ8VM01G'
 hasCJKLanguage: true
 
 markup:
@@ -34,14 +33,11 @@ params:
   delayDisqus: true
   showRelatedPosts: true
   hideAuthor: false
+  disableAnchoredHeadings: false
+  
 
   # header social icons
   twitter: 'NITGC_bungei'               # twitter.com/YOUR_TWITTER_ID
-
-  # home page profile
-  avatar: 'https://pbs.twimg.com/profile_images/1237143126323548160/bPkIHIET_400x400.jpg'                 # gravatar email or image url
-  name: '群馬高専の文芸部です〜'
-  bio: 'やっはろー'
 
 taxonomies:
   tag: 'tag'

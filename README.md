@@ -3,7 +3,7 @@
 hugoを使っているので簡単にセットアップできると思います。  
 # 使いかた
 記事を  
-`hugo new post/{記事名}`  
+`hugo new posts/{記事名}`  
 で追加します。  
 書き終わったら、  
 `git add .`  
@@ -52,9 +52,10 @@ gitについては電算部の本棚にある「わかばちゃんと学ぶGit�
 クローンしたフォルダに移動します  
 `cd gunmabungei.github.io`  
 このままでは多分バグるので  
+手動でthemes以下のフォルダを削除した後、   
 `git submodule deinit -f themes/PaperMod`  
 `git add .gitmodules`  
-`git rm --cached themes/beautifulhugo`  
+`git rm --cached themes/PaperMod`  
 の２つのコマンドを実行した後、  
 `git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod`  
 `git submodule update --init --recursive `  
