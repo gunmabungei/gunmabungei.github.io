@@ -33,7 +33,7 @@ hugoを使っているので簡単にセットアップできると思います�
 hugo  
 git  
 ## hugoインストール
-ここ(https://gohugo.io/installation/)を観ながらがんばってください。
+ここ(https://gohugo.io/installation/ )を観ながらがんばってください。
 ### Windowsの場合
 パーッケージマネージャーからインストールします  
 https://gohugo.io/installation/windows/  
