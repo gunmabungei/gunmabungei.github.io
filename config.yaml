@@ -10,6 +10,20 @@ pygmentsCodefencesGuessSyntax: true
 #pygmentOptions: "linenos=inline"
 hasCJKLanguage: true
 
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+
+assets:
+  theme_color: 'wheat'
+  msapplocation_TileColor: 'wheat'
+
+
 markup:
   goldmark:
     parser:
@@ -17,27 +31,93 @@ markup:
         block: true
 
 params:
-  color: 'linen'                           # linen, wheat, gray, light
-  mainSections:
-    - 'post'
-    - 'posts'
-  logo: 'https://pbs.twimg.com/profile_images/1654294111967653890/pNzzPLql_400x400.jpg' # Expecting square dimensions
-  favicon: 'https://pbs.twimg.com/profile_images/1654294111967653890/pNzzPLql_400x400.jpg'
-  dateFormat: 'January 2, 2006'
-  commit: false
-  rss: true
-  comments: true
-  readingTime: true
-  useHLJS: true
-  socialShare: true
-  delayDisqus: true
-  showRelatedPosts: true
-  hideAuthor: false
-  disableAnchoredHeadings: false
-  
+    # header social icons
+    color: 'linen'                           # linen, wheat, gray, light
+    twitter: 'NITGC_bungei'       
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+    author: Theme PaperMod
+    # author: ["Me", "You"] # multiple authors
 
-  # header social icons
-  twitter: 'NITGC_bungei'               # twitter.com/YOUR_TWITTER_ID
+    defaultTheme: auto
+    # disableThemeToggle: true
+    ShowShareButtons: true
+    ShowReadingTime: true
+    # disableSpecial1stPost: true
+    displayFullLangName: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowRssButtonInSectionTermList: true
+    ShowToc: true
+    # comments: false
+    images: ["papermod-cover.png"]
+
+    homeInfoParams:
+        Title: "このサイトの案内"
+        Content: > 
+            - ***About***  
+
+            -  Aboutでは文芸部についての解説をしています。
+            
+            - ***Author*** 
+            
+            - Authorでは作者ごとにインデックスを作っています。
+            
+            - ***Tag***
+            
+            - Tagでは作品ん種類ごとにインデックスを作っています。
+            
+            - Novel：小説
+            
+            - TT：200字小説
+            
+            - Poem：日記
+    socialIcons:
+        - name: twitter
+          url: "https://twitter.com/NITGC_bungei"
+    editPost:
+        URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
+        Text: "Suggest Changes" # edit text
+        appendFilePath: true # to append file path to Edit link
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        noClasses: false
+        # anchorLineNos: true
+        # codeFences: true
+        # guessSyntax: true
+        # lineNos: true
+        # style: monokai
+
+privacy:
+    vimeo:
+        disabled: false
+        simple: true
+
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: false
+        simple: true
+
+    youtube:
+        disabled: false
+        privacyEnhanced: true
+
+services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true
+
+        # twitter.com/YOUR_TWITTER_ID
 
 taxonomies:
   tag: 'tag'
