@@ -3,7 +3,7 @@ title: "Markisen"
 date: 2023-05-21T16:54:42+09:00
 draft: false
 tag: "novel"
-author: "Der sechster Sinn"
+author: "蒼玉"
 ---
 
   
