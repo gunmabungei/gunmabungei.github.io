@@ -3,6 +3,7 @@ title: "ポテトチップス"
 date: 2023-06-23T08:14:49Z
 draft: false
 tag: ["TT", "ポテトチップス(TT)"]
+author: "蒼玉"
 ---
 
 
