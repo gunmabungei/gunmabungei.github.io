@@ -1,5 +1,5 @@
 ---
-title: "ポテトチップス  "
+title: "ポテトチップス lin"
 date: 2023-06-26T03:07:19Z
 draft: false
 author: "lin"
