@@ -10,6 +10,9 @@ pygmentsCodefencesGuessSyntax: true
 #pygmentOptions: "linenos=inline"
 hasCJKLanguage: true
 
+//グーグルアナリティクスです
+googleAnalytics : "G-EMJ3B56Q5G"
+
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
