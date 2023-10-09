@@ -10,8 +10,9 @@ pygmentsCodefencesGuessSyntax: true
 #pygmentOptions: "linenos=inline"
 hasCJKLanguage: true
 
-//グーグルアナリティクスです
-googleAnalytics : "G-EMJ3B56Q5G"
+##グーグルアナリティクスです。nitgc.bungei@gmail.com
+googleAnalytics: 'G-EMJ3B56Q5G'
+##G-JB3PP8NJDJ
 
 
 enableInlineShortcodes: true
@@ -41,6 +42,7 @@ params:
     description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
     author: Theme PaperMod
     # author: ["Me", "You"] # multiple authors
+
 
     defaultTheme: auto
     # disableThemeToggle: true
