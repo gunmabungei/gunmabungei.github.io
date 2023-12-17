@@ -1,5 +1,5 @@
 ---
-title: "アドカレ"
+title: "Linakoiのアドカレ"
 date: 2023-12-06T14:45:17+09:00
 draft: false
 ---

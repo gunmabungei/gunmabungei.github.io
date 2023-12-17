@@ -1,7 +1,7 @@
 ---
 title: "大TT発表会"
 date: 2023-12-17T01:01:47+09:00
-draft: true
+draft: false
 ---
 ## うおおおお！
 
