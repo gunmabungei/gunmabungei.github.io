@@ -24,3 +24,4 @@ color: 'linen'
 
 [Twitter：NITGC_bungei](https://twitter.com/NITGC_bungei)  
 [マシュマロ](https://marshmallow-qa.com/nitgc_bungei?utm_medium=twitter&utm_source=promotion)
+[旧サイト](https://gunmabungei.yomibitoshirazu.com)
